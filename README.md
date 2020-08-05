@@ -47,7 +47,28 @@ which the song belongs to i.e. happy, sad etc.
 • Brackets for web page development
 • Chrome / Internet Explorer / FireFox for displaying the web page
 # Dataset used / Tools used: -
-a. Where from you are taking your dataset?
 Million Song dataset id a free and ready to use ad taste with a collection of audio and
 metadata for a million contemporary popular music tracks.
 Reference:https://labrosa.ee.columbia.edu/millionsong/
+
+# Results and discussion
+
+# • Classification of the songs based on their lyrics using Naive Bayes Algorithm.
+
+‣ After training the model according to the four different moods i.e. happy, sad, relaxed
+and angry we took the input from the user in the form of lyrics of any song and based on
+the lexicon and token in the lyrics the lyrics were successfully classified according to the
+moods of the song.
+
+# • Calculation the percentage of the respective mood based on the lyrics of the song.
+‣ After training the model according to our four moods datasets we tested the model with the testing dataset which consists of four different types of songs. The model was made to predict the mood of that particular song and was rated in the basis of the accuracy of the prediction i.e. whether the prediction and the actual value predicted are same. I found out that the overall accuracy of the model is 48%. This is mainly due to the small dataset that I have used. The accuracy will increase with the improvement of thetraining dataset.
+
+# • Calculation of Accuracy
+‣ The accuracy of our model is 0.48. We found out that our base paper that to uses SVM for training and performing the prediction has a slight higher accuracy of 0.52 which is mainly due to the extensive training of the model using the million song dataset. The accuracy of our model will improve with wider dataset.
+
+# • Implementation of the complete project through an interactive web interface.
+
+‣ The entire project has been implemented using flask for backend which is an API
+specially designed for doing backend that includes machine learning algorithms. The
+front-end consists of an interactive user interface with an input text box in which the user
+can input the song whose mood the user wants to determine. 
