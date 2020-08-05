@@ -61,10 +61,10 @@ the lexicon and token in the lyrics the lyrics were successfully classified acco
 moods of the song.
 
 # • Calculation the percentage of the respective mood based on the lyrics of the song.
-‣ After training the model according to our four moods datasets we tested the model with the testing dataset which consists of four different types of songs. The model was made to predict the mood of that particular song and was rated in the basis of the accuracy of the prediction i.e. whether the prediction and the actual value predicted are same. I found out that the overall accuracy of the model is 48%. This is mainly due to the small dataset that I have used. The accuracy will increase with the improvement of thetraining dataset.
+‣ After training the model according to our four moods datasets we tested the model with the testing dataset which consists of four different types of songs. The model was made to predict the mood of that particular song and was rated in the basis of the accuracy of the prediction i.e. whether the prediction and the actual value predicted are same. I found out that the overall accuracy of the model is 78%. This is mainly due to the small dataset that I have used. The accuracy will increase with the improvement of thetraining dataset.
 
 # • Calculation of Accuracy
-‣ The accuracy of our model is 0.48. We found out that our base paper that to uses SVM for training and performing the prediction has a slight higher accuracy of 0.52 which is mainly due to the extensive training of the model using the million song dataset. The accuracy of our model will improve with wider dataset.
+‣ The accuracy of our model is 0.78. We found out that our base paper that to uses SVM for training and performing the prediction has a slight higher accuracy of 0.82 which is mainly due to the extensive training of the model using the million song dataset. The accuracy of our model will improve with wider dataset.
 
 # • Implementation of the complete project through an interactive web interface.
 
